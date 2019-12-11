@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/practice_genius_memory/static/css/main.4d0d92cd.chunk.css",
+    "main.js": "/practice_genius_memory/static/js/main.d9bff59e.chunk.js",
+    "main.js.map": "/practice_genius_memory/static/js/main.d9bff59e.chunk.js.map",
+    "runtime-main.js": "/practice_genius_memory/static/js/runtime-main.3dce5363.js",
+    "runtime-main.js.map": "/practice_genius_memory/static/js/runtime-main.3dce5363.js.map",
+    "static/js/2.6f9a32ef.chunk.js": "/practice_genius_memory/static/js/2.6f9a32ef.chunk.js",
+    "static/js/2.6f9a32ef.chunk.js.map": "/practice_genius_memory/static/js/2.6f9a32ef.chunk.js.map",
+    "index.html": "/practice_genius_memory/index.html",
+    "precache-manifest.ee39ce87126403d9b1e6ed95aac3db94.js": "/practice_genius_memory/precache-manifest.ee39ce87126403d9b1e6ed95aac3db94.js",
+    "service-worker.js": "/practice_genius_memory/service-worker.js",
+    "static/css/main.4d0d92cd.chunk.css.map": "/practice_genius_memory/static/css/main.4d0d92cd.chunk.css.map",
+    "static/js/2.6f9a32ef.chunk.js.LICENSE": "/practice_genius_memory/static/js/2.6f9a32ef.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3dce5363.js",
+    "static/js/2.6f9a32ef.chunk.js",
+    "static/css/main.4d0d92cd.chunk.css",
+    "static/js/main.d9bff59e.chunk.js"
+  ]
+}
