@@ -1,0 +1,12 @@
+.Reference {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  @media (max-width: 650px) {
+    flex-direction: column;
+    position: sticky;
+    left: 0;
+    top: 0;
+  }
+  
+}

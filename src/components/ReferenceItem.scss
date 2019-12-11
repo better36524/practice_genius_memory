@@ -1,0 +1,49 @@
+.ReferenceItem {
+  font-size: 1.5rem;
+  width: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  @media (max-width: 650px) {
+    flex-direction: row;
+    width: 9rem;
+    margin-top: 0.3rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  align-items: center;
+  align-content: center;
+  border-style: solid;
+  border-color: pink;
+  border-width: 2px;
+  border-radius: 32px;
+  .index {
+    display: flex;
+    align-items: center;
+  }
+  .station {
+    display: flex;
+    padding-top: 0.5rem;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    @media (max-width: 650px) {
+      writing-mode: horizontal-tb;
+      text-orientation: sideways-right;
+      padding-top: 0;
+      padding-left: 0.5rem;
+    }
+  }
+
+  &.selected {
+    background: pink;
+  }
+
+  &:hover {
+    background: pink;
+    cursor: pointer;
+  }
+}

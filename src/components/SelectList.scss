@@ -1,0 +1,13 @@
+.SelectList {
+  padding-top: 6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  @media (max-width: 650px) {
+    flex-direction: column;
+    position: sticky;
+    padding-top: 0;
+    top: 0;
+    right: 0;
+  }
+}

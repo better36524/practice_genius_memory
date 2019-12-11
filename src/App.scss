@@ -1,0 +1,30 @@
+.GamePlate {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  @media (max-width: 650px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.Submit {
+  padding-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .over {
+    color: white;
+    background: darkslateblue;
+    font-size: 2rem;
+    @media (max-width: 650px) {
+      position: sticky;
+      top: 0;
+      right: 0;
+    }
+  }
+
+  .result {
+    font-size: 2rem;
+  }
+}

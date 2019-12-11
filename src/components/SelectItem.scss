@@ -1,0 +1,48 @@
+.selectItem {
+  font-size: large;
+  width: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-color: coral;
+  border-style: solid;
+  border-width: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-width: 2px;
+  border-radius: 32px;
+  @media (max-width: 650px) {
+    flex-direction: row;
+    justify-content: center;
+    width: 8rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .index {
+    display: flex;
+    justify-content: center;
+  }
+  .station {
+    display: flex;
+    align-items: center;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    @media (max-width: 650px) {
+      writing-mode: horizontal-tb;
+      text-orientation: sideways-right;
+      padding-left: 0.5rem;
+    }
+  }
+  &.revealed {
+    @media (max-width: 650px) {
+      justify-content: flex-start;
+    }
+  }
+  &.isTarget {
+    color: white;
+    font-size: 2rem;
+    background: dimgray;
+  }
+}
