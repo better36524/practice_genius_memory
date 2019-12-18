@@ -11,7 +11,7 @@ const SelectItem = ({ item }) => {
 
   return (
     <div className={cn('selectItem', { isTarget, revealed })}>
-      <div className="index">{index}</div>
+      <div className="number">{index + 1}</div>
       {revealed && <div className="station">{station}</div>}
     </div>
   );

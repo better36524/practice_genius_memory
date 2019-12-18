@@ -10,7 +10,7 @@ const ReferenceItem = ({ item, onClick }) => {
       className={cn('ReferenceItem', { selected })}
       onClick={() => onClick(item)}
     >
-      {visible && <div className="index">{index}</div>}
+      {visible && <div className="number">{index + 1}</div>}
       <div className="station">{station}</div>
     </div>
   );
