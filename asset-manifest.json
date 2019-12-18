@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/practice_genius_memory/static/css/main.4d0d92cd.chunk.css",
-    "main.js": "/practice_genius_memory/static/js/main.74bc6a52.chunk.js",
-    "main.js.map": "/practice_genius_memory/static/js/main.74bc6a52.chunk.js.map",
+    "main.css": "/practice_genius_memory/static/css/main.a78e5a99.chunk.css",
+    "main.js": "/practice_genius_memory/static/js/main.4ce6d02d.chunk.js",
+    "main.js.map": "/practice_genius_memory/static/js/main.4ce6d02d.chunk.js.map",
     "runtime-main.js": "/practice_genius_memory/static/js/runtime-main.3dce5363.js",
     "runtime-main.js.map": "/practice_genius_memory/static/js/runtime-main.3dce5363.js.map",
     "static/js/2.6f9a32ef.chunk.js": "/practice_genius_memory/static/js/2.6f9a32ef.chunk.js",
     "static/js/2.6f9a32ef.chunk.js.map": "/practice_genius_memory/static/js/2.6f9a32ef.chunk.js.map",
     "index.html": "/practice_genius_memory/index.html",
-    "precache-manifest.795ec429397bbb18701d0088f9df3558.js": "/practice_genius_memory/precache-manifest.795ec429397bbb18701d0088f9df3558.js",
+    "precache-manifest.3baf15cf122b418355b508d13f315dd3.js": "/practice_genius_memory/precache-manifest.3baf15cf122b418355b508d13f315dd3.js",
     "service-worker.js": "/practice_genius_memory/service-worker.js",
-    "static/css/main.4d0d92cd.chunk.css.map": "/practice_genius_memory/static/css/main.4d0d92cd.chunk.css.map",
+    "static/css/main.a78e5a99.chunk.css.map": "/practice_genius_memory/static/css/main.a78e5a99.chunk.css.map",
     "static/js/2.6f9a32ef.chunk.js.LICENSE": "/practice_genius_memory/static/js/2.6f9a32ef.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.3dce5363.js",
     "static/js/2.6f9a32ef.chunk.js",
-    "static/css/main.4d0d92cd.chunk.css",
-    "static/js/main.74bc6a52.chunk.js"
+    "static/css/main.a78e5a99.chunk.css",
+    "static/js/main.4ce6d02d.chunk.js"
   ]
 }
